@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<axis2 xmlns="http://www.netbeans.org/ns/axis2/1">
+    <service name="PersonServiceImpl">
+        <service-class>com.practice.soap.person.webservice.PersonServiceImpl</service-class>
+        <generate-wsdl targetNamespace="http://webservice/person/soap/practice/com/" schemaNamespace="http://webservice/person/soap/practice/com/xsd"/>
+    </service>
+</axis2>
